@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "FilesUI",
+        "repositoryURL": "https://github.com/briannadoubt/FilesUI.git",
+        "state": {
+          "branch": "main",
+          "revision": "e71dbf67e76f8814f76de47646f4dcfdb55b7b62",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03412065273350D500BDE4E4 /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03412064273350D500BDE4E4 /* ShareSheet.swift */; };
+		03412066273350D500BDE4E4 /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03412064273350D500BDE4E4 /* ShareSheet.swift */; };
 		038AFF4F272F3A8000CE33C8 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038AFF4E272F3A8000CE33C8 /* Tests_iOS.swift */; };
 		038AFF51272F3A8000CE33C8 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038AFF50272F3A8000CE33C8 /* Tests_iOSLaunchTests.swift */; };
 		038AFF5B272F3A8000CE33C8 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038AFF5A272F3A8000CE33C8 /* Tests_macOS.swift */; };
@@ -17,6 +19,38 @@
 		038AFF61272F3A8000CE33C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038AFF37272F3A7E00CE33C8 /* ContentView.swift */; };
 		038AFF62272F3A8000CE33C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 038AFF38272F3A8000CE33C8 /* Assets.xcassets */; };
 		038AFF63272F3A8000CE33C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 038AFF38272F3A8000CE33C8 /* Assets.xcassets */; };
+		038AFF76272F408D00CE33C8 /* VideoConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038AFF75272F408C00CE33C8 /* VideoConverter.swift */; };
+		038AFF77272F408D00CE33C8 /* VideoConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038AFF75272F408C00CE33C8 /* VideoConverter.swift */; };
+		038AFF79272F40A500CE33C8 /* VideoConverterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038AFF78272F40A500CE33C8 /* VideoConverterView.swift */; };
+		038AFF7A272F40A500CE33C8 /* VideoConverterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038AFF78272F40A500CE33C8 /* VideoConverterView.swift */; };
+		038AFF7F272F43EE00CE33C8 /* VideoConverterError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038AFF7E272F43EE00CE33C8 /* VideoConverterError.swift */; };
+		038AFF80272F43EE00CE33C8 /* VideoConverterError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038AFF7E272F43EE00CE33C8 /* VideoConverterError.swift */; };
+		038AFF82272F440200CE33C8 /* VideoCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038AFF81272F440200CE33C8 /* VideoCodec.swift */; };
+		038AFF83272F440200CE33C8 /* VideoCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038AFF81272F440200CE33C8 /* VideoCodec.swift */; };
+		038AFF85272F441200CE33C8 /* VideoExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038AFF84272F441200CE33C8 /* VideoExtension.swift */; };
+		038AFF86272F441200CE33C8 /* VideoExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038AFF84272F441200CE33C8 /* VideoExtension.swift */; };
+		038AFF88272F501D00CE33C8 /* VideoConversionSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038AFF87272F501D00CE33C8 /* VideoConversionSession.swift */; };
+		038AFF89272F501D00CE33C8 /* VideoConversionSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038AFF87272F501D00CE33C8 /* VideoConversionSession.swift */; };
+		038AFF8B272F505700CE33C8 /* VideoConversionScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038AFF8A272F505700CE33C8 /* VideoConversionScript.swift */; };
+		038AFF8C272F505700CE33C8 /* VideoConversionScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038AFF8A272F505700CE33C8 /* VideoConversionScript.swift */; };
+		038AFF8E272F506B00CE33C8 /* VideoRenderScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038AFF8D272F506B00CE33C8 /* VideoRenderScript.swift */; };
+		038AFF8F272F506B00CE33C8 /* VideoRenderScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038AFF8D272F506B00CE33C8 /* VideoRenderScript.swift */; };
+		038AFF91272F5DA400CE33C8 /* VideoProbe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038AFF90272F5DA400CE33C8 /* VideoProbe.swift */; };
+		038AFF92272F5DA400CE33C8 /* VideoProbe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038AFF90272F5DA400CE33C8 /* VideoProbe.swift */; };
+		03C44F2627334094000E19D8 /* VideoConversionSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C44F2527334094000E19D8 /* VideoConversionSessionView.swift */; };
+		03C44F2727334094000E19D8 /* VideoConversionSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C44F2527334094000E19D8 /* VideoConversionSessionView.swift */; };
+		03F70C702731EC7200476AC4 /* FilesUI in Frameworks */ = {isa = PBXBuildFile; productRef = 03F70C6F2731EC7200476AC4 /* FilesUI */; };
+		03F70C722731F34300476AC4 /* VideoConversionPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F70C712731F34300476AC4 /* VideoConversionPicker.swift */; };
+		03F70C732731F34300476AC4 /* VideoConversionPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F70C712731F34300476AC4 /* VideoConversionPicker.swift */; };
+		03F70C7527325E2400476AC4 /* VideoProbeScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F70C7427325E2400476AC4 /* VideoProbeScript.swift */; };
+		03F70C7627325E2400476AC4 /* VideoProbeScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F70C7427325E2400476AC4 /* VideoProbeScript.swift */; };
+		03F70C7927330FCF00476AC4 /* Script.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F70C7827330FCF00476AC4 /* Script.swift */; };
+		03F70C7A27330FCF00476AC4 /* Script.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F70C7827330FCF00476AC4 /* Script.swift */; };
+		03F70C7C273336ED00476AC4 /* Dinokids.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03F70C7B273336ED00476AC4 /* Dinokids.ttf */; };
+		03F70C7D273336ED00476AC4 /* Dinokids.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03F70C7B273336ED00476AC4 /* Dinokids.ttf */; };
+		03F70C812733378A00476AC4 /* FilesUI in Frameworks */ = {isa = PBXBuildFile; productRef = 03F70C802733378A00476AC4 /* FilesUI */; };
+		75BBCCDEFE310961578DBA7D /* Pods_Oatmeal__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB5B932E1F61D5B85A2B0707 /* Pods_Oatmeal__iOS_.framework */; };
+		9139D513891B2AD5D714516A /* Pods_Oatmeal__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFCA62001C30887B10375E69 /* Pods_Oatmeal__macOS_.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +71,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03412064273350D500BDE4E4 /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
 		038AFF36272F3A7E00CE33C8 /* OatmealApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OatmealApp.swift; sourceTree = "<group>"; };
 		038AFF37272F3A7E00CE33C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		038AFF38272F3A8000CE33C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +84,28 @@
 		038AFF56272F3A8000CE33C8 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		038AFF5A272F3A8000CE33C8 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		038AFF5C272F3A8000CE33C8 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		038AFF75272F408C00CE33C8 /* VideoConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoConverter.swift; sourceTree = "<group>"; };
+		038AFF78272F40A500CE33C8 /* VideoConverterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoConverterView.swift; sourceTree = "<group>"; };
+		038AFF7E272F43EE00CE33C8 /* VideoConverterError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoConverterError.swift; sourceTree = "<group>"; };
+		038AFF81272F440200CE33C8 /* VideoCodec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCodec.swift; sourceTree = "<group>"; };
+		038AFF84272F441200CE33C8 /* VideoExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoExtension.swift; sourceTree = "<group>"; };
+		038AFF87272F501D00CE33C8 /* VideoConversionSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoConversionSession.swift; sourceTree = "<group>"; };
+		038AFF8A272F505700CE33C8 /* VideoConversionScript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoConversionScript.swift; sourceTree = "<group>"; };
+		038AFF8D272F506B00CE33C8 /* VideoRenderScript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoRenderScript.swift; sourceTree = "<group>"; };
+		038AFF90272F5DA400CE33C8 /* VideoProbe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoProbe.swift; sourceTree = "<group>"; };
+		03C44F2527334094000E19D8 /* VideoConversionSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoConversionSessionView.swift; sourceTree = "<group>"; };
+		03F70C712731F34300476AC4 /* VideoConversionPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoConversionPicker.swift; sourceTree = "<group>"; };
+		03F70C7427325E2400476AC4 /* VideoProbeScript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoProbeScript.swift; sourceTree = "<group>"; };
+		03F70C7827330FCF00476AC4 /* Script.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Script.swift; sourceTree = "<group>"; };
+		03F70C7B273336ED00476AC4 /* Dinokids.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dinokids.ttf; sourceTree = "<group>"; };
+		03F70C7E2733372A00476AC4 /* Oatmeal--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Oatmeal--iOS--Info.plist"; sourceTree = "<group>"; };
+		03F70C7F2733374D00476AC4 /* Oatmeal--macOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Oatmeal--macOS--Info.plist"; sourceTree = "<group>"; };
+		04E72389D8835E00CD42578D /* Pods-Oatmeal (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oatmeal (macOS).debug.xcconfig"; path = "Target Support Files/Pods-Oatmeal (macOS)/Pods-Oatmeal (macOS).debug.xcconfig"; sourceTree = "<group>"; };
+		7A1D7CFCEFF162644E42F001 /* Pods-Oatmeal (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oatmeal (iOS).release.xcconfig"; path = "Target Support Files/Pods-Oatmeal (iOS)/Pods-Oatmeal (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		B9EED66CE42E51A9C019FB23 /* Pods-Oatmeal (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oatmeal (macOS).release.xcconfig"; path = "Target Support Files/Pods-Oatmeal (macOS)/Pods-Oatmeal (macOS).release.xcconfig"; sourceTree = "<group>"; };
+		CB5B932E1F61D5B85A2B0707 /* Pods_Oatmeal__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Oatmeal__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D401671513B9F2B1D52D4CD9 /* Pods-Oatmeal (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oatmeal (iOS).debug.xcconfig"; path = "Target Support Files/Pods-Oatmeal (iOS)/Pods-Oatmeal (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		EFCA62001C30887B10375E69 /* Pods_Oatmeal__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Oatmeal__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +113,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03F70C702731EC7200476AC4 /* FilesUI in Frameworks */,
+				75BBCCDEFE310961578DBA7D /* Pods_Oatmeal__iOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +122,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03F70C812733378A00476AC4 /* FilesUI in Frameworks */,
+				9139D513891B2AD5D714516A /* Pods_Oatmeal__macOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,11 +147,15 @@
 		038AFF30272F3A7D00CE33C8 = {
 			isa = PBXGroup;
 			children = (
+				03F70C7F2733374D00476AC4 /* Oatmeal--macOS--Info.plist */,
+				03F70C7E2733372A00476AC4 /* Oatmeal--iOS--Info.plist */,
 				038AFF35272F3A7D00CE33C8 /* Shared */,
 				038AFF44272F3A8000CE33C8 /* macOS */,
 				038AFF4D272F3A8000CE33C8 /* Tests iOS */,
 				038AFF59272F3A8000CE33C8 /* Tests macOS */,
 				038AFF3E272F3A8000CE33C8 /* Products */,
+				7351443B4342137B759433DC /* Pods */,
+				670EBDB60D4419D59A08F517 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +164,9 @@
 			children = (
 				038AFF36272F3A7E00CE33C8 /* OatmealApp.swift */,
 				038AFF37272F3A7E00CE33C8 /* ContentView.swift */,
+				03412064273350D500BDE4E4 /* ShareSheet.swift */,
+				03C44F28273340A6000E19D8 /* VideoConverter */,
+				03F70C7B273336ED00476AC4 /* Dinokids.ttf */,
 				038AFF38272F3A8000CE33C8 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -141,6 +209,70 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		03C44F28273340A6000E19D8 /* VideoConverter */ = {
+			isa = PBXGroup;
+			children = (
+				038AFF75272F408C00CE33C8 /* VideoConverter.swift */,
+				038AFF87272F501D00CE33C8 /* VideoConversionSession.swift */,
+				038AFF90272F5DA400CE33C8 /* VideoProbe.swift */,
+				03F70C7727325E5000476AC4 /* Scripts */,
+				03C44F2A273340CB000E19D8 /* Model */,
+				03C44F29273340B2000E19D8 /* View */,
+			);
+			path = VideoConverter;
+			sourceTree = "<group>";
+		};
+		03C44F29273340B2000E19D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				03F70C712731F34300476AC4 /* VideoConversionPicker.swift */,
+				03C44F2527334094000E19D8 /* VideoConversionSessionView.swift */,
+				038AFF78272F40A500CE33C8 /* VideoConverterView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		03C44F2A273340CB000E19D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				038AFF7E272F43EE00CE33C8 /* VideoConverterError.swift */,
+				038AFF81272F440200CE33C8 /* VideoCodec.swift */,
+				038AFF84272F441200CE33C8 /* VideoExtension.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		03F70C7727325E5000476AC4 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				03F70C7827330FCF00476AC4 /* Script.swift */,
+				03F70C7427325E2400476AC4 /* VideoProbeScript.swift */,
+				038AFF8D272F506B00CE33C8 /* VideoRenderScript.swift */,
+				038AFF8A272F505700CE33C8 /* VideoConversionScript.swift */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		670EBDB60D4419D59A08F517 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB5B932E1F61D5B85A2B0707 /* Pods_Oatmeal__iOS_.framework */,
+				EFCA62001C30887B10375E69 /* Pods_Oatmeal__macOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7351443B4342137B759433DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D401671513B9F2B1D52D4CD9 /* Pods-Oatmeal (iOS).debug.xcconfig */,
+				7A1D7CFCEFF162644E42F001 /* Pods-Oatmeal (iOS).release.xcconfig */,
+				04E72389D8835E00CD42578D /* Pods-Oatmeal (macOS).debug.xcconfig */,
+				B9EED66CE42E51A9C019FB23 /* Pods-Oatmeal (macOS).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -148,6 +280,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 038AFF66272F3A8000CE33C8 /* Build configuration list for PBXNativeTarget "Oatmeal (iOS)" */;
 			buildPhases = (
+				5CC3F863B99DA307BA60EF97 /* [CP] Check Pods Manifest.lock */,
 				038AFF39272F3A8000CE33C8 /* Sources */,
 				038AFF3A272F3A8000CE33C8 /* Frameworks */,
 				038AFF3B272F3A8000CE33C8 /* Resources */,
@@ -157,6 +290,9 @@
 			dependencies = (
 			);
 			name = "Oatmeal (iOS)";
+			packageProductDependencies = (
+				03F70C6F2731EC7200476AC4 /* FilesUI */,
+			);
 			productName = "Oatmeal (iOS)";
 			productReference = 038AFF3D272F3A8000CE33C8 /* Oatmeal.app */;
 			productType = "com.apple.product-type.application";
@@ -165,6 +301,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 038AFF69272F3A8000CE33C8 /* Build configuration list for PBXNativeTarget "Oatmeal (macOS)" */;
 			buildPhases = (
+				3CF3A2383433A3728138E15D /* [CP] Check Pods Manifest.lock */,
 				038AFF3F272F3A8000CE33C8 /* Sources */,
 				038AFF40272F3A8000CE33C8 /* Frameworks */,
 				038AFF41272F3A8000CE33C8 /* Resources */,
@@ -174,6 +311,9 @@
 			dependencies = (
 			);
 			name = "Oatmeal (macOS)";
+			packageProductDependencies = (
+				03F70C802733378A00476AC4 /* FilesUI */,
+			);
 			productName = "Oatmeal (macOS)";
 			productReference = 038AFF43272F3A8000CE33C8 /* Oatmeal.app */;
 			productType = "com.apple.product-type.application";
@@ -249,6 +389,9 @@
 				Base,
 			);
 			mainGroup = 038AFF30272F3A7D00CE33C8;
+			packageReferences = (
+				03F70C6E2731EC7200476AC4 /* XCRemoteSwiftPackageReference "FilesUI" */,
+			);
 			productRefGroup = 038AFF3E272F3A8000CE33C8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -266,6 +409,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03F70C7C273336ED00476AC4 /* Dinokids.ttf in Resources */,
 				038AFF62272F3A8000CE33C8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +418,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03F70C7D273336ED00476AC4 /* Dinokids.ttf in Resources */,
 				038AFF63272F3A8000CE33C8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,13 +439,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3CF3A2383433A3728138E15D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Oatmeal (macOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CC3F863B99DA307BA60EF97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Oatmeal (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		038AFF39272F3A8000CE33C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				038AFF60272F3A8000CE33C8 /* ContentView.swift in Sources */,
+				03C44F2627334094000E19D8 /* VideoConversionSessionView.swift in Sources */,
+				03F70C722731F34300476AC4 /* VideoConversionPicker.swift in Sources */,
+				038AFF79272F40A500CE33C8 /* VideoConverterView.swift in Sources */,
+				038AFF88272F501D00CE33C8 /* VideoConversionSession.swift in Sources */,
+				03412065273350D500BDE4E4 /* ShareSheet.swift in Sources */,
+				038AFF76272F408D00CE33C8 /* VideoConverter.swift in Sources */,
+				038AFF8E272F506B00CE33C8 /* VideoRenderScript.swift in Sources */,
+				038AFF8B272F505700CE33C8 /* VideoConversionScript.swift in Sources */,
+				038AFF85272F441200CE33C8 /* VideoExtension.swift in Sources */,
+				03F70C7927330FCF00476AC4 /* Script.swift in Sources */,
 				038AFF5E272F3A8000CE33C8 /* OatmealApp.swift in Sources */,
+				038AFF91272F5DA400CE33C8 /* VideoProbe.swift in Sources */,
+				038AFF7F272F43EE00CE33C8 /* VideoConverterError.swift in Sources */,
+				03F70C7527325E2400476AC4 /* VideoProbeScript.swift in Sources */,
+				038AFF82272F440200CE33C8 /* VideoCodec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +515,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				038AFF61272F3A8000CE33C8 /* ContentView.swift in Sources */,
+				03C44F2727334094000E19D8 /* VideoConversionSessionView.swift in Sources */,
+				03F70C732731F34300476AC4 /* VideoConversionPicker.swift in Sources */,
+				038AFF7A272F40A500CE33C8 /* VideoConverterView.swift in Sources */,
+				038AFF89272F501D00CE33C8 /* VideoConversionSession.swift in Sources */,
+				03412066273350D500BDE4E4 /* ShareSheet.swift in Sources */,
+				038AFF77272F408D00CE33C8 /* VideoConverter.swift in Sources */,
+				038AFF8F272F506B00CE33C8 /* VideoRenderScript.swift in Sources */,
+				038AFF8C272F505700CE33C8 /* VideoConversionScript.swift in Sources */,
+				038AFF86272F441200CE33C8 /* VideoExtension.swift in Sources */,
+				03F70C7A27330FCF00476AC4 /* Script.swift in Sources */,
 				038AFF5F272F3A8000CE33C8 /* OatmealApp.swift in Sources */,
+				038AFF92272F5DA400CE33C8 /* VideoProbe.swift in Sources */,
+				038AFF80272F43EE00CE33C8 /* VideoConverterError.swift in Sources */,
+				03F70C7627325E2400476AC4 /* VideoProbeScript.swift in Sources */,
+				038AFF83272F440200CE33C8 /* VideoCodec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +680,7 @@
 		};
 		038AFF67272F3A8000CE33C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D401671513B9F2B1D52D4CD9 /* Pods-Oatmeal (iOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -468,9 +689,11 @@
 				DEVELOPMENT_TEAM = LU6454UVH5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Oatmeal--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -479,7 +702,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.briannadoubt.Oatmeal;
+				PRODUCT_BUNDLE_IDENTIFIER = com.briannadoubt.oatmeal;
 				PRODUCT_NAME = Oatmeal;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -490,6 +713,7 @@
 		};
 		038AFF68272F3A8000CE33C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A1D7CFCEFF162644E42F001 /* Pods-Oatmeal (iOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -498,9 +722,11 @@
 				DEVELOPMENT_TEAM = LU6454UVH5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Oatmeal--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -509,7 +735,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.briannadoubt.Oatmeal;
+				PRODUCT_BUNDLE_IDENTIFIER = com.briannadoubt.oatmeal;
 				PRODUCT_NAME = Oatmeal;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -521,6 +747,7 @@
 		};
 		038AFF6A272F3A8000CE33C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04E72389D8835E00CD42578D /* Pods-Oatmeal (macOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -532,6 +759,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Oatmeal--macOS--Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -539,7 +768,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.briannadoubt.Oatmeal;
+				PRODUCT_BUNDLE_IDENTIFIER = com.briannadoubt.oatmeal;
 				PRODUCT_NAME = Oatmeal;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -549,6 +778,7 @@
 		};
 		038AFF6B272F3A8000CE33C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9EED66CE42E51A9C019FB23 /* Pods-Oatmeal (macOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -560,6 +790,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Oatmeal--macOS--Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -567,7 +799,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.briannadoubt.Oatmeal;
+				PRODUCT_BUNDLE_IDENTIFIER = com.briannadoubt.oatmeal;
 				PRODUCT_NAME = Oatmeal;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -725,6 +957,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		03F70C6E2731EC7200476AC4 /* XCRemoteSwiftPackageReference "FilesUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/briannadoubt/FilesUI.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		03F70C6F2731EC7200476AC4 /* FilesUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03F70C6E2731EC7200476AC4 /* XCRemoteSwiftPackageReference "FilesUI" */;
+			productName = FilesUI;
+		};
+		03F70C802733378A00476AC4 /* FilesUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03F70C6E2731EC7200476AC4 /* XCRemoteSwiftPackageReference "FilesUI" */;
+			productName = FilesUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 038AFF31272F3A7D00CE33C8 /* Project object */;
 }
