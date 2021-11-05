@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		032FA4802734B2DC00EDA764 /* ShareSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 032FA47F2734B2DC00EDA764 /* ShareSheet */; };
-		034120682733751100BDE4E4 /* OatmealiOSInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 03F70C7E2733372A00476AC4 /* OatmealiOSInfo.plist */; };
 		034120692733751600BDE4E4 /* OatmealiOSInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 03F70C7E2733372A00476AC4 /* OatmealiOSInfo.plist */; };
 		0341206B273468A400BDE4E4 /* FileManager+AppDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0341206A273468A400BDE4E4 /* FileManager+AppDirectory.swift */; };
 		0341206C273468A400BDE4E4 /* FileManager+AppDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0341206A273468A400BDE4E4 /* FileManager+AppDirectory.swift */; };
@@ -431,7 +430,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				034120682733751100BDE4E4 /* OatmealiOSInfo.plist in Resources */,
 				03F70C7C273336ED00476AC4 /* Dinokids.ttf in Resources */,
 				038AFF62272F3A8000CE33C8 /* Assets.xcassets in Resources */,
 			);
@@ -776,6 +774,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -807,6 +806,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
