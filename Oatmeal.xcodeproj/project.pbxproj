@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03412065273350D500BDE4E4 /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03412064273350D500BDE4E4 /* ShareSheet.swift */; };
-		03412066273350D500BDE4E4 /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03412064273350D500BDE4E4 /* ShareSheet.swift */; };
+		032FA4802734B2DC00EDA764 /* ShareSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 032FA47F2734B2DC00EDA764 /* ShareSheet */; };
+		034120682733751100BDE4E4 /* OatmealiOSInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 03F70C7E2733372A00476AC4 /* OatmealiOSInfo.plist */; };
+		034120692733751600BDE4E4 /* OatmealiOSInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 03F70C7E2733372A00476AC4 /* OatmealiOSInfo.plist */; };
+		0341206B273468A400BDE4E4 /* FileManager+AppDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0341206A273468A400BDE4E4 /* FileManager+AppDirectory.swift */; };
+		0341206C273468A400BDE4E4 /* FileManager+AppDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0341206A273468A400BDE4E4 /* FileManager+AppDirectory.swift */; };
 		038AFF4F272F3A8000CE33C8 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038AFF4E272F3A8000CE33C8 /* Tests_iOS.swift */; };
 		038AFF51272F3A8000CE33C8 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038AFF50272F3A8000CE33C8 /* Tests_iOSLaunchTests.swift */; };
 		038AFF5B272F3A8000CE33C8 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038AFF5A272F3A8000CE33C8 /* Tests_macOS.swift */; };
@@ -71,7 +74,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03412064273350D500BDE4E4 /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
+		0341206A273468A400BDE4E4 /* FileManager+AppDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+AppDirectory.swift"; sourceTree = "<group>"; };
 		038AFF36272F3A7E00CE33C8 /* OatmealApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OatmealApp.swift; sourceTree = "<group>"; };
 		038AFF37272F3A7E00CE33C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		038AFF38272F3A8000CE33C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -98,8 +101,8 @@
 		03F70C7427325E2400476AC4 /* VideoProbeScript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoProbeScript.swift; sourceTree = "<group>"; };
 		03F70C7827330FCF00476AC4 /* Script.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Script.swift; sourceTree = "<group>"; };
 		03F70C7B273336ED00476AC4 /* Dinokids.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dinokids.ttf; sourceTree = "<group>"; };
-		03F70C7E2733372A00476AC4 /* Oatmeal--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Oatmeal--iOS--Info.plist"; sourceTree = "<group>"; };
-		03F70C7F2733374D00476AC4 /* Oatmeal--macOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Oatmeal--macOS--Info.plist"; sourceTree = "<group>"; };
+		03F70C7E2733372A00476AC4 /* OatmealiOSInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = OatmealiOSInfo.plist; sourceTree = "<group>"; };
+		03F70C7F2733374D00476AC4 /* OatmealmacOSInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = OatmealmacOSInfo.plist; sourceTree = "<group>"; };
 		04E72389D8835E00CD42578D /* Pods-Oatmeal (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oatmeal (macOS).debug.xcconfig"; path = "Target Support Files/Pods-Oatmeal (macOS)/Pods-Oatmeal (macOS).debug.xcconfig"; sourceTree = "<group>"; };
 		7A1D7CFCEFF162644E42F001 /* Pods-Oatmeal (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oatmeal (iOS).release.xcconfig"; path = "Target Support Files/Pods-Oatmeal (iOS)/Pods-Oatmeal (iOS).release.xcconfig"; sourceTree = "<group>"; };
 		B9EED66CE42E51A9C019FB23 /* Pods-Oatmeal (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oatmeal (macOS).release.xcconfig"; path = "Target Support Files/Pods-Oatmeal (macOS)/Pods-Oatmeal (macOS).release.xcconfig"; sourceTree = "<group>"; };
@@ -114,6 +117,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03F70C702731EC7200476AC4 /* FilesUI in Frameworks */,
+				032FA4802734B2DC00EDA764 /* ShareSheet in Frameworks */,
 				75BBCCDEFE310961578DBA7D /* Pods_Oatmeal__iOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,12 +148,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03412067273374A400BDE4E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				03F70C7E2733372A00476AC4 /* OatmealiOSInfo.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		0341206D27349E3C00BDE4E4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0341206A273468A400BDE4E4 /* FileManager+AppDirectory.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		038AFF30272F3A7D00CE33C8 = {
 			isa = PBXGroup;
 			children = (
-				03F70C7F2733374D00476AC4 /* Oatmeal--macOS--Info.plist */,
-				03F70C7E2733372A00476AC4 /* Oatmeal--iOS--Info.plist */,
 				038AFF35272F3A7D00CE33C8 /* Shared */,
+				03412067273374A400BDE4E4 /* iOS */,
 				038AFF44272F3A8000CE33C8 /* macOS */,
 				038AFF4D272F3A8000CE33C8 /* Tests iOS */,
 				038AFF59272F3A8000CE33C8 /* Tests macOS */,
@@ -164,8 +183,8 @@
 			children = (
 				038AFF36272F3A7E00CE33C8 /* OatmealApp.swift */,
 				038AFF37272F3A7E00CE33C8 /* ContentView.swift */,
-				03412064273350D500BDE4E4 /* ShareSheet.swift */,
-				03C44F28273340A6000E19D8 /* VideoConverter */,
+				03C44F29273340B2000E19D8 /* VideoConverterView */,
+				03C44F28273340A6000E19D8 /* FFmpeg */,
 				03F70C7B273336ED00476AC4 /* Dinokids.ttf */,
 				038AFF38272F3A8000CE33C8 /* Assets.xcassets */,
 			);
@@ -186,6 +205,7 @@
 		038AFF44272F3A8000CE33C8 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
+				03F70C7F2733374D00476AC4 /* OatmealmacOSInfo.plist */,
 				038AFF45272F3A8000CE33C8 /* macOS.entitlements */,
 			);
 			path = macOS;
@@ -209,27 +229,27 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
-		03C44F28273340A6000E19D8 /* VideoConverter */ = {
+		03C44F28273340A6000E19D8 /* FFmpeg */ = {
 			isa = PBXGroup;
 			children = (
-				038AFF75272F408C00CE33C8 /* VideoConverter.swift */,
 				038AFF87272F501D00CE33C8 /* VideoConversionSession.swift */,
 				038AFF90272F5DA400CE33C8 /* VideoProbe.swift */,
+				038AFF75272F408C00CE33C8 /* VideoConverter.swift */,
+				0341206D27349E3C00BDE4E4 /* Extensions */,
 				03F70C7727325E5000476AC4 /* Scripts */,
 				03C44F2A273340CB000E19D8 /* Model */,
-				03C44F29273340B2000E19D8 /* View */,
 			);
-			path = VideoConverter;
+			path = FFmpeg;
 			sourceTree = "<group>";
 		};
-		03C44F29273340B2000E19D8 /* View */ = {
+		03C44F29273340B2000E19D8 /* VideoConverterView */ = {
 			isa = PBXGroup;
 			children = (
 				03F70C712731F34300476AC4 /* VideoConversionPicker.swift */,
 				03C44F2527334094000E19D8 /* VideoConversionSessionView.swift */,
 				038AFF78272F40A500CE33C8 /* VideoConverterView.swift */,
 			);
-			path = View;
+			path = VideoConverterView;
 			sourceTree = "<group>";
 		};
 		03C44F2A273340CB000E19D8 /* Model */ = {
@@ -292,6 +312,7 @@
 			name = "Oatmeal (iOS)";
 			packageProductDependencies = (
 				03F70C6F2731EC7200476AC4 /* FilesUI */,
+				032FA47F2734B2DC00EDA764 /* ShareSheet */,
 			);
 			productName = "Oatmeal (iOS)";
 			productReference = 038AFF3D272F3A8000CE33C8 /* Oatmeal.app */;
@@ -391,6 +412,7 @@
 			mainGroup = 038AFF30272F3A7D00CE33C8;
 			packageReferences = (
 				03F70C6E2731EC7200476AC4 /* XCRemoteSwiftPackageReference "FilesUI" */,
+				032FA47E2734B2DC00EDA764 /* XCRemoteSwiftPackageReference "ShareSheet" */,
 			);
 			productRefGroup = 038AFF3E272F3A8000CE33C8 /* Products */;
 			projectDirPath = "";
@@ -409,6 +431,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				034120682733751100BDE4E4 /* OatmealiOSInfo.plist in Resources */,
 				03F70C7C273336ED00476AC4 /* Dinokids.ttf in Resources */,
 				038AFF62272F3A8000CE33C8 /* Assets.xcassets in Resources */,
 			);
@@ -418,6 +441,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				034120692733751600BDE4E4 /* OatmealiOSInfo.plist in Resources */,
 				03F70C7D273336ED00476AC4 /* Dinokids.ttf in Resources */,
 				038AFF63272F3A8000CE33C8 /* Assets.xcassets in Resources */,
 			);
@@ -496,12 +520,12 @@
 				03F70C722731F34300476AC4 /* VideoConversionPicker.swift in Sources */,
 				038AFF79272F40A500CE33C8 /* VideoConverterView.swift in Sources */,
 				038AFF88272F501D00CE33C8 /* VideoConversionSession.swift in Sources */,
-				03412065273350D500BDE4E4 /* ShareSheet.swift in Sources */,
 				038AFF76272F408D00CE33C8 /* VideoConverter.swift in Sources */,
 				038AFF8E272F506B00CE33C8 /* VideoRenderScript.swift in Sources */,
 				038AFF8B272F505700CE33C8 /* VideoConversionScript.swift in Sources */,
 				038AFF85272F441200CE33C8 /* VideoExtension.swift in Sources */,
 				03F70C7927330FCF00476AC4 /* Script.swift in Sources */,
+				0341206B273468A400BDE4E4 /* FileManager+AppDirectory.swift in Sources */,
 				038AFF5E272F3A8000CE33C8 /* OatmealApp.swift in Sources */,
 				038AFF91272F5DA400CE33C8 /* VideoProbe.swift in Sources */,
 				038AFF7F272F43EE00CE33C8 /* VideoConverterError.swift in Sources */,
@@ -519,12 +543,12 @@
 				03F70C732731F34300476AC4 /* VideoConversionPicker.swift in Sources */,
 				038AFF7A272F40A500CE33C8 /* VideoConverterView.swift in Sources */,
 				038AFF89272F501D00CE33C8 /* VideoConversionSession.swift in Sources */,
-				03412066273350D500BDE4E4 /* ShareSheet.swift in Sources */,
 				038AFF77272F408D00CE33C8 /* VideoConverter.swift in Sources */,
 				038AFF8F272F506B00CE33C8 /* VideoRenderScript.swift in Sources */,
 				038AFF8C272F505700CE33C8 /* VideoConversionScript.swift in Sources */,
 				038AFF86272F441200CE33C8 /* VideoExtension.swift in Sources */,
 				03F70C7A27330FCF00476AC4 /* Script.swift in Sources */,
+				0341206C273468A400BDE4E4 /* FileManager+AppDirectory.swift in Sources */,
 				038AFF5F272F3A8000CE33C8 /* OatmealApp.swift in Sources */,
 				038AFF92272F5DA400CE33C8 /* VideoProbe.swift in Sources */,
 				038AFF80272F43EE00CE33C8 /* VideoConverterError.swift in Sources */,
@@ -689,7 +713,7 @@
 				DEVELOPMENT_TEAM = LU6454UVH5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Oatmeal--iOS--Info.plist";
+				INFOPLIST_FILE = iOS/OatmealiOSInfo.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -722,7 +746,7 @@
 				DEVELOPMENT_TEAM = LU6454UVH5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Oatmeal--iOS--Info.plist";
+				INFOPLIST_FILE = iOS/OatmealiOSInfo.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -759,7 +783,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Oatmeal--macOS--Info.plist";
+				INFOPLIST_FILE = macOS/OatmealmacOSInfo.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -790,7 +814,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Oatmeal--macOS--Info.plist";
+				INFOPLIST_FILE = macOS/OatmealmacOSInfo.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -959,6 +983,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		032FA47E2734B2DC00EDA764 /* XCRemoteSwiftPackageReference "ShareSheet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/briannadoubt/ShareSheet.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 		03F70C6E2731EC7200476AC4 /* XCRemoteSwiftPackageReference "FilesUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/briannadoubt/FilesUI.git";
@@ -970,6 +1002,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		032FA47F2734B2DC00EDA764 /* ShareSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 032FA47E2734B2DC00EDA764 /* XCRemoteSwiftPackageReference "ShareSheet" */;
+			productName = ShareSheet;
+		};
 		03F70C6F2731EC7200476AC4 /* FilesUI */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 03F70C6E2731EC7200476AC4 /* XCRemoteSwiftPackageReference "FilesUI" */;

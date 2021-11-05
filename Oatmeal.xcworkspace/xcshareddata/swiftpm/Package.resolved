@@ -6,7 +6,16 @@
         "repositoryURL": "https://github.com/briannadoubt/FilesUI.git",
         "state": {
           "branch": "main",
-          "revision": "e71dbf67e76f8814f76de47646f4dcfdb55b7b62",
+          "revision": "9687007d3b609f2b91f25f9082fd30019fa5e5fe",
+          "version": null
+        }
+      },
+      {
+        "package": "ShareSheet",
+        "repositoryURL": "https://github.com/briannadoubt/ShareSheet.git",
+        "state": {
+          "branch": "main",
+          "revision": "27bc574d312a02a1c13e91d7fdbe7f3eb228f9a6",
           "version": null
         }
       }
