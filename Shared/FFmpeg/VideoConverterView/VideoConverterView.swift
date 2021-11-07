@@ -12,26 +12,28 @@ public struct VideoConverterView: View {
     @StateObject private var converter = VideoConverter()
     
     public var body: some View {
-//        let scrollView = ScrollView {
-            let scrollView = LazyVStack(pinnedViews: [.sectionHeaders]) {
-                Section(header: VideoConversionPicker(converter: converter).background(.ultraThinMaterial)) {
-                    ForEach(converter.sessions) { session in
-                        VideoConversionView(inputFile: session.script.inputFile, stop: converter.stop)
-                            .environmentObject(session)
-                        Divider()
-                    }
+        let vstack = LazyVStack(pinnedViews: [.sectionHeaders]) {
+            Section(header: VideoConversionPicker(converter: converter).background(.ultraThinMaterial)) {
+                ForEach(converter.sessions) { session in
+                    VideoConversionView(inputFile: session.script.inputFile, stop: converter.stop)
+                        .environmentObject(session)
+                    Divider()
                 }
             }
-//        }
+        }
         .environmentObject(converter)
         .navigationTitle(Text("Oatmeal"))
+        
+        let scrollView = ScrollView {
+            vstack
+        }
         
         #if os(iOS)
         NavigationView {
             scrollView
         }
         #elseif os(macOS)
-        scrollView.frame(minWidth: 364)
+        vstack.frame(minWidth: 364)
         #endif
     }
 }
