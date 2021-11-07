@@ -7,6 +7,7 @@
 
 import SwiftUI
 import FilesUI
+import ShareSheet
 
 extension Double {
   func asString(style: DateComponentsFormatter.UnitsStyle) -> String {
@@ -81,7 +82,12 @@ public struct VideoConversionSessionView: View {
             Button(action: { showShareSheet.toggle() }) {
                 Image(systemName: "square.and.arrow.up")
             }
-            .shareSheet(items: [URL(fileURLWithPath: "shareddocuments" + session.script.absoluteOutputFile.dropFirst(4))], isPresented: $showShareSheet)
+            .shareSheet(items: [session.script.outputFile], isPresented: $showShareSheet, excludedActivityTypes: nil)
+            #endif
+            #if os(macOS)
+            Button(action: { showInFinder(url: session.script.outputFile) }) {
+                Image(systemName: "folder")
+            }
             #endif
         }
         

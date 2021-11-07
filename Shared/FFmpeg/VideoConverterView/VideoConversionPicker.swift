@@ -14,7 +14,21 @@ public struct VideoConversionPicker: View {
     @ObservedObject public var converter: VideoConverter
     
     @State private var inputFile: URL?
-    @State private var outputDirectory: URL = FileManager.default.homeDirectoryForCurrentUser.appendingPathComponent("Oatmeal", isDirectory: true)
+    @State private var outputDirectory: URL = FileManager.default
+        .url(forUbiquityContainerIdentifier: nil)?
+        .appendingPathComponent("Oatmeal", isDirectory: true)
+        ?? (
+            try? FileManager.default
+                .url(
+                    for: .downloadsDirectory,
+                    in: .allDomainsMask,
+                    appropriateFor: nil,
+                    create: true
+                )
+                .appendingPathComponent("Oatmeal", isDirectory: true)
+        )
+        ?? FileManager.default.appDirectory
+        
     @AppStorage("outputDirectory") private var outputData: Data = Data()
     
     @State public var probe: VideoProbe?

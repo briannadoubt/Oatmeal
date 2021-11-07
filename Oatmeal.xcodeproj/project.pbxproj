@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		030625F42737655A006781CF /* VideoPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030625F32737655A006781CF /* VideoPreview.swift */; };
 		030625F52737655A006781CF /* VideoPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030625F32737655A006781CF /* VideoPreview.swift */; };
-		032FA4802734B2DC00EDA764 /* ShareSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 032FA47F2734B2DC00EDA764 /* ShareSheet */; };
+		030625F7273873F6006781CF /* ShareSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 030625F6273873F6006781CF /* ShareSheet */; };
 		034120692733751600BDE4E4 /* OatmealiOSInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 03F70C7E2733372A00476AC4 /* OatmealiOSInfo.plist */; };
 		0341206B273468A400BDE4E4 /* FileManager+AppDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0341206A273468A400BDE4E4 /* FileManager+AppDirectory.swift */; };
 		0341206C273468A400BDE4E4 /* FileManager+AppDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0341206A273468A400BDE4E4 /* FileManager+AppDirectory.swift */; };
@@ -119,7 +119,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03F70C702731EC7200476AC4 /* FilesUI in Frameworks */,
-				032FA4802734B2DC00EDA764 /* ShareSheet in Frameworks */,
+				030625F7273873F6006781CF /* ShareSheet in Frameworks */,
 				75BBCCDEFE310961578DBA7D /* Pods_Oatmeal__iOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,7 +315,7 @@
 			name = "Oatmeal (iOS)";
 			packageProductDependencies = (
 				03F70C6F2731EC7200476AC4 /* FilesUI */,
-				032FA47F2734B2DC00EDA764 /* ShareSheet */,
+				030625F6273873F6006781CF /* ShareSheet */,
 			);
 			productName = "Oatmeal (iOS)";
 			productReference = 038AFF3D272F3A8000CE33C8 /* Oatmeal.app */;
@@ -1008,7 +1008,7 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		032FA47F2734B2DC00EDA764 /* ShareSheet */ = {
+		030625F6273873F6006781CF /* ShareSheet */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 032FA47E2734B2DC00EDA764 /* XCRemoteSwiftPackageReference "ShareSheet" */;
 			productName = ShareSheet;

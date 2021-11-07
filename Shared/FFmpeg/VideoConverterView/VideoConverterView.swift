@@ -7,6 +7,23 @@
 
 import SwiftUI
 
+#if os(macOS)
+func showInFinder(url: URL?) {
+    guard let url = url else { return }
+    
+    if url.hasDirectoryPath {
+        NSWorkspace.shared.selectFile(nil, inFileViewerRootedAtPath: url.path)
+    }
+    else {
+        showInFinderAndSelectLastComponent(of: url)
+    }
+}
+
+fileprivate func showInFinderAndSelectLastComponent(of url: URL) {
+    NSWorkspace.shared.activateFileViewerSelecting([url])
+}
+#endif
+
 public struct VideoConverterView: View {
     
     @StateObject private var converter = VideoConverter()
