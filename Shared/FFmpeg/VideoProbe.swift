@@ -21,7 +21,7 @@ public class VideoProbe: ObservableObject {
     @Published public var codec: VideoCodec?
     
     @Published public var totalDuration: Double?
-    @Published public var totalPackets: Double?
+    @Published public var totalFrames: Double?
     
     @Published public var fileSize: Int?
     @Published public var bitrate: Double?
@@ -33,7 +33,7 @@ public class VideoProbe: ObservableObject {
     public init(_ file: URL) throws {
         self.file = file
         
-        guard let videoExtension = VideoExtension(rawValue: file.pathExtension) else {
+        guard let videoExtension = VideoExtension(rawValue: file.pathExtension.lowercased()) else {
             throw VideoConverterError.fileExtensionNotSupported(file.pathExtension)
         }
         
@@ -50,8 +50,8 @@ public class VideoProbe: ObservableObject {
         let mediaInformationScript = VideoProbeScript(file)
         getMediaInformation(mediaInformationScript)
         
-        let packetCountScript = VideoProbePacketCountScript(file)
-        try getPacketCount(packetCountScript)
+        let frameCountScript = VideoProbePacketCountScript(file)
+        try getFrameCount(frameCountScript)
         
         file.stopAccessingSecurityScopedResource()
     }
@@ -73,8 +73,8 @@ public class VideoProbe: ObservableObject {
             }
         }
         
-        if let duration = mediaInformation?.getDuration() {
-            self.totalDuration = Double(duration)
+        if let duration = Double(mediaInformation?.getDuration() ?? "") {
+            self.totalDuration = duration
         }
         
         if let size = mediaInformation?.getSize() {
@@ -110,9 +110,10 @@ public class VideoProbe: ObservableObject {
         }
     }
     
-    func getPacketCount(_ script: VideoProbePacketCountScript) throws {
-        let packetCountMediaInformationSession = FFprobeKit.getMediaInformation(fromCommand: script.command)
-        let output = packetCountMediaInformationSession?.getOutput() ?? "Nope"
+    func getFrameCount(_ script: VideoProbePacketCountScript) throws {
+        let frameCountMediaInformationSession = FFprobeKit.getMediaInformation(fromCommand: script.command)
+        let output = frameCountMediaInformationSession?.getOutput() ?? "Nope"
+        print(output)
         guard let data = output.data(using: .utf8) else {
             throw VideoConverterError.failedToEncodeStringToData(output, script)
         }
@@ -126,9 +127,9 @@ public class VideoProbe: ObservableObject {
             throw VideoConverterError.noKeyFound("streams[0]", script)
         }
         for i in stream { // Why this is an array, I do not know...
-            if i.key == "nb_read_packets" {
+            if i.key == "nb_read_frames" {
                 if let string = i.value as? String, let value = Double(string) {
-                    self.totalPackets = value
+                    self.totalFrames = value
                 }
                 break
             }

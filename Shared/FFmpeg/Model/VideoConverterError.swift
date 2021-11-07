@@ -16,6 +16,7 @@ public enum VideoConverterError: Error {
     case failedToEncodeStringToData(_ string: String, _ script: VideoScript)
     case failedToParseProbeOutput(_ output: String, _ script: VideoScript)
     case noKeyFound(_ key: String, _ script: VideoScript)
+    case failedToEncodeBookmarkDataToUrl
     
     public var localizedDescription: String {
         switch self {
@@ -33,6 +34,8 @@ public enum VideoConverterError: Error {
             return "Failed to parse probe output of \(script.inputFile) with command: \(script.command)\nOutput: \(output)"
         case .noKeyFound(let key, let stream):
             return "No key found: \(key) while parsing result from command: \(stream.command)"
+        case .failedToEncodeBookmarkDataToUrl:
+            return "Failed to encode bookmark data to url"
         }
     }
 }

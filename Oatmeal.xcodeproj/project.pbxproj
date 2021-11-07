@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		030625F42737655A006781CF /* VideoPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030625F32737655A006781CF /* VideoPreview.swift */; };
+		030625F52737655A006781CF /* VideoPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030625F32737655A006781CF /* VideoPreview.swift */; };
 		032FA4802734B2DC00EDA764 /* ShareSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 032FA47F2734B2DC00EDA764 /* ShareSheet */; };
 		034120692733751600BDE4E4 /* OatmealiOSInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 03F70C7E2733372A00476AC4 /* OatmealiOSInfo.plist */; };
 		0341206B273468A400BDE4E4 /* FileManager+AppDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0341206A273468A400BDE4E4 /* FileManager+AppDirectory.swift */; };
@@ -73,6 +75,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		030625F32737655A006781CF /* VideoPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPreview.swift; sourceTree = "<group>"; };
 		0341206A273468A400BDE4E4 /* FileManager+AppDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+AppDirectory.swift"; sourceTree = "<group>"; };
 		038AFF36272F3A7E00CE33C8 /* OatmealApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OatmealApp.swift; sourceTree = "<group>"; };
 		038AFF37272F3A7E00CE33C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -182,7 +185,6 @@
 			children = (
 				038AFF36272F3A7E00CE33C8 /* OatmealApp.swift */,
 				038AFF37272F3A7E00CE33C8 /* ContentView.swift */,
-				03C44F29273340B2000E19D8 /* VideoConverterView */,
 				03C44F28273340A6000E19D8 /* FFmpeg */,
 				03F70C7B273336ED00476AC4 /* Dinokids.ttf */,
 				038AFF38272F3A8000CE33C8 /* Assets.xcassets */,
@@ -234,6 +236,7 @@
 				038AFF87272F501D00CE33C8 /* VideoConversionSession.swift */,
 				038AFF90272F5DA400CE33C8 /* VideoProbe.swift */,
 				038AFF75272F408C00CE33C8 /* VideoConverter.swift */,
+				03C44F29273340B2000E19D8 /* VideoConverterView */,
 				0341206D27349E3C00BDE4E4 /* Extensions */,
 				03F70C7727325E5000476AC4 /* Scripts */,
 				03C44F2A273340CB000E19D8 /* Model */,
@@ -244,9 +247,10 @@
 		03C44F29273340B2000E19D8 /* VideoConverterView */ = {
 			isa = PBXGroup;
 			children = (
-				03F70C712731F34300476AC4 /* VideoConversionPicker.swift */,
-				03C44F2527334094000E19D8 /* VideoConversionSessionView.swift */,
 				038AFF78272F40A500CE33C8 /* VideoConverterView.swift */,
+				03F70C712731F34300476AC4 /* VideoConversionPicker.swift */,
+				030625F32737655A006781CF /* VideoPreview.swift */,
+				03C44F2527334094000E19D8 /* VideoConversionSessionView.swift */,
 			);
 			path = VideoConverterView;
 			sourceTree = "<group>";
@@ -527,6 +531,7 @@
 				038AFF5E272F3A8000CE33C8 /* OatmealApp.swift in Sources */,
 				038AFF91272F5DA400CE33C8 /* VideoProbe.swift in Sources */,
 				038AFF7F272F43EE00CE33C8 /* VideoConverterError.swift in Sources */,
+				030625F42737655A006781CF /* VideoPreview.swift in Sources */,
 				03F70C7527325E2400476AC4 /* VideoProbeScript.swift in Sources */,
 				038AFF82272F440200CE33C8 /* VideoCodec.swift in Sources */,
 			);
@@ -550,6 +555,7 @@
 				038AFF5F272F3A8000CE33C8 /* OatmealApp.swift in Sources */,
 				038AFF92272F5DA400CE33C8 /* VideoProbe.swift in Sources */,
 				038AFF80272F43EE00CE33C8 /* VideoConverterError.swift in Sources */,
+				030625F52737655A006781CF /* VideoPreview.swift in Sources */,
 				03F70C7627325E2400476AC4 /* VideoProbeScript.swift in Sources */,
 				038AFF83272F440200CE33C8 /* VideoCodec.swift in Sources */,
 			);
@@ -774,7 +780,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -806,7 +812,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;

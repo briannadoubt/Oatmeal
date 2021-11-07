@@ -8,7 +8,7 @@
 import CoreGraphics
 import ffmpegkit
 import UniformTypeIdentifiers
-import SwiftUI
+import Combine
 
 public class VideoConverter: ObservableObject {
     @Published public var sessions: [VideoConversionSession] = []
