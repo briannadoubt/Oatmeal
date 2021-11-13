@@ -2,21 +2,34 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>We'd kindly ask for your permission to access your photo library. This is so that we can conveniently import a video to start converting videos right away! If you don't allow us access, that's okay, we'll just hang out. You can always pick or drop a file too!</string>
+	<key>NSUbiquitousContainers</key>
+	<dict>
+		<key>iCloud.Oatmeal</key>
+		<dict>
+			<key>NSUbiquitousContainerIsDocumentScopePublic</key>
+			<true/>
+			<key>NSUbiquitousContainerName</key>
+			<string>iCloud.Oatmeal</string>
+			<key>NSUbiquitousContainerSupportedFolderLevels</key>
+			<string>Any</string>
+		</dict>
+	</dict>
 	<key>UIAppFonts</key>
-        <array>
-            <string>DinoKids.ttf</string>
-        </array>
-    <key>NSUbiquitousContainers</key>
-        <dict>
-            <key>iCloud.Oatmeal</key>
-            <dict>
-                <key>NSUbiquitousContainerIsDocumentScopePublic</key>
-                <true/>
-                <key>NSUbiquitousContainerName</key>
-                <string>iCloud.Oatmeal</string>
-                <key>NSUbiquitousContainerSupportedFolderLevels</key>
-                <string>Any</string>
-            </dict>
-        </dict>
+	<array>
+		<string>Dinokids.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+		<string>fetch</string>
+		<string>processing</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleLightContent</string>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
 </dict>
 </plist>

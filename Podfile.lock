@@ -1,20 +1,26 @@
 PODS:
   - ffmpeg-kit-ios-full-gpl (4.5)
   - ffmpeg-kit-macos-full-gpl (4.5)
+  - GBDeviceInfo (6.7.0):
+    - GBDeviceInfo/Core (= 6.7.0)
+  - GBDeviceInfo/Core (6.7.0)
 
 DEPENDENCIES:
   - ffmpeg-kit-ios-full-gpl (~> 4.5)
   - ffmpeg-kit-macos-full-gpl (~> 4.5)
+  - GBDeviceInfo (~> 6.0)
 
 SPEC REPOS:
   trunk:
     - ffmpeg-kit-ios-full-gpl
     - ffmpeg-kit-macos-full-gpl
+    - GBDeviceInfo
 
 SPEC CHECKSUMS:
   ffmpeg-kit-ios-full-gpl: 486f8176aa796bb97609160292005d7849a69b30
   ffmpeg-kit-macos-full-gpl: 3c1915098543d061e9445c820199b16d5e0c9f8d
+  GBDeviceInfo: c1a46e3fe1b5406a0ebaa60f8a871cfed9da9a42
 
-PODFILE CHECKSUM: 1a560e49406db36ae595eb72faddd9161c7251f0
+PODFILE CHECKSUM: c8c6c31b363f4d5abff63e6b22044277c6f569e6
 
 COCOAPODS: 1.11.2

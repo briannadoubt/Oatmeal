@@ -13,6 +13,32 @@
 		034120692733751600BDE4E4 /* OatmealiOSInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 03F70C7E2733372A00476AC4 /* OatmealiOSInfo.plist */; };
 		0341206B273468A400BDE4E4 /* FileManager+AppDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0341206A273468A400BDE4E4 /* FileManager+AppDirectory.swift */; };
 		0341206C273468A400BDE4E4 /* FileManager+AppDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0341206A273468A400BDE4E4 /* FileManager+AppDirectory.swift */; };
+		03462C94273DC96B008C170C /* Dinos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03462C93273DC96B008C170C /* Dinos.swift */; };
+		03462C95273DC96B008C170C /* Dinos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03462C93273DC96B008C170C /* Dinos.swift */; };
+		03462C98273DCFEE008C170C /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 03462C97273DCFEE008C170C /* FirebaseAnalytics */; };
+		03462C9A273DCFEE008C170C /* FirebaseAnalyticsSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 03462C99273DCFEE008C170C /* FirebaseAnalyticsSwift-Beta */; };
+		03462C9C273DCFEE008C170C /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 03462C9B273DCFEE008C170C /* FirebaseAppCheck */; };
+		03462C9E273DCFEE008C170C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 03462C9D273DCFEE008C170C /* FirebaseAuth */; };
+		03462CA0273DCFEE008C170C /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 03462C9F273DCFEE008C170C /* FirebaseAuthCombine-Community */; };
+		03462CA2273DCFEE008C170C /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 03462CA1273DCFEE008C170C /* FirebaseCrashlytics */; };
+		03462CA4273DCFEE008C170C /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 03462CA3273DCFEE008C170C /* FirebaseFirestore */; };
+		03462CA6273DCFEE008C170C /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 03462CA5273DCFEE008C170C /* FirebaseFirestoreCombine-Community */; };
+		03462CA8273DCFEE008C170C /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 03462CA7273DCFEE008C170C /* FirebaseFirestoreSwift-Beta */; };
+		03462CAA273DCFEE008C170C /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 03462CA9273DCFEE008C170C /* FirebaseMessaging */; };
+		03462CAC273DCFEE008C170C /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = 03462CAB273DCFEE008C170C /* FirebasePerformance */; };
+		03462CAE273DCFEE008C170C /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 03462CAD273DCFEE008C170C /* FirebaseRemoteConfig */; };
+		03462CB0273DD003008C170C /* EnvironmentStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03462CAF273DD003008C170C /* EnvironmentStack.swift */; };
+		03462CB1273DD003008C170C /* EnvironmentStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03462CAF273DD003008C170C /* EnvironmentStack.swift */; };
+		03462CBF273E1124008C170C /* Environment Scene.scn in Resources */ = {isa = PBXBuildFile; fileRef = 03462CBE273E1124008C170C /* Environment Scene.scn */; };
+		03462CC0273E1125008C170C /* Environment Scene.scn in Resources */ = {isa = PBXBuildFile; fileRef = 03462CBE273E1124008C170C /* Environment Scene.scn */; };
+		03462CC2273E1192008C170C /* EnvironmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03462CC1273E1191008C170C /* EnvironmentView.swift */; };
+		03462CC3273E1192008C170C /* EnvironmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03462CC1273E1191008C170C /* EnvironmentView.swift */; };
+		03595BE1273F42F900BAEDA0 /* Oatmeal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03595BDE273F42F900BAEDA0 /* Oatmeal.xcdatamodeld */; };
+		03595BE2273F42F900BAEDA0 /* Oatmeal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03595BDE273F42F900BAEDA0 /* Oatmeal.xcdatamodeld */; };
+		03595BE3273F42F900BAEDA0 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03595BE0273F42F900BAEDA0 /* Persistence.swift */; };
+		03595BE4273F42F900BAEDA0 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03595BE0273F42F900BAEDA0 /* Persistence.swift */; };
+		03595BE7273F55EC00BAEDA0 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03595BE6273F55EC00BAEDA0 /* CloudKit.framework */; };
+		03595BE9273F562800BAEDA0 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03595BE8273F562800BAEDA0 /* StoreKit.framework */; };
 		038AFF4F272F3A8000CE33C8 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038AFF4E272F3A8000CE33C8 /* Tests_iOS.swift */; };
 		038AFF51272F3A8000CE33C8 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038AFF50272F3A8000CE33C8 /* Tests_iOSLaunchTests.swift */; };
 		038AFF5B272F3A8000CE33C8 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038AFF5A272F3A8000CE33C8 /* Tests_macOS.swift */; };
@@ -41,6 +67,8 @@
 		038AFF8F272F506B00CE33C8 /* VideoRenderScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038AFF8D272F506B00CE33C8 /* VideoRenderScript.swift */; };
 		038AFF91272F5DA400CE33C8 /* VideoProbe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038AFF90272F5DA400CE33C8 /* VideoProbe.swift */; };
 		038AFF92272F5DA400CE33C8 /* VideoProbe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038AFF90272F5DA400CE33C8 /* VideoProbe.swift */; };
+		0396F0BD273DA27700EFB425 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0396F0BC273DA27700EFB425 /* CircularProgressView.swift */; };
+		0396F0BE273DA27700EFB425 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0396F0BC273DA27700EFB425 /* CircularProgressView.swift */; };
 		03C44F2627334094000E19D8 /* VideoConversionSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C44F2527334094000E19D8 /* VideoConversionSessionView.swift */; };
 		03C44F2727334094000E19D8 /* VideoConversionSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C44F2527334094000E19D8 /* VideoConversionSessionView.swift */; };
 		03F70C702731EC7200476AC4 /* FilesUI in Frameworks */ = {isa = PBXBuildFile; productRef = 03F70C6F2731EC7200476AC4 /* FilesUI */; };
@@ -77,6 +105,15 @@
 /* Begin PBXFileReference section */
 		030625F32737655A006781CF /* VideoPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPreview.swift; sourceTree = "<group>"; };
 		0341206A273468A400BDE4E4 /* FileManager+AppDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+AppDirectory.swift"; sourceTree = "<group>"; };
+		03462C93273DC96B008C170C /* Dinos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dinos.swift; sourceTree = "<group>"; };
+		03462CAF273DD003008C170C /* EnvironmentStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentStack.swift; sourceTree = "<group>"; };
+		03462CBE273E1124008C170C /* Environment Scene.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "Environment Scene.scn"; sourceTree = "<group>"; };
+		03462CC1273E1191008C170C /* EnvironmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentView.swift; sourceTree = "<group>"; };
+		03595BDF273F42F900BAEDA0 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
+		03595BE0273F42F900BAEDA0 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		03595BE5273F55E900BAEDA0 /* Oatmeal (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Oatmeal (iOS).entitlements"; sourceTree = "<group>"; };
+		03595BE6273F55EC00BAEDA0 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/System/Library/Frameworks/CloudKit.framework; sourceTree = DEVELOPER_DIR; };
+		03595BE8273F562800BAEDA0 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
 		038AFF36272F3A7E00CE33C8 /* OatmealApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OatmealApp.swift; sourceTree = "<group>"; };
 		038AFF37272F3A7E00CE33C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		038AFF38272F3A8000CE33C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -98,6 +135,7 @@
 		038AFF8A272F505700CE33C8 /* VideoConversionScript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoConversionScript.swift; sourceTree = "<group>"; };
 		038AFF8D272F506B00CE33C8 /* VideoRenderScript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoRenderScript.swift; sourceTree = "<group>"; };
 		038AFF90272F5DA400CE33C8 /* VideoProbe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoProbe.swift; sourceTree = "<group>"; };
+		0396F0BC273DA27700EFB425 /* CircularProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
 		03C44F2527334094000E19D8 /* VideoConversionSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoConversionSessionView.swift; sourceTree = "<group>"; };
 		03F70C712731F34300476AC4 /* VideoConversionPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoConversionPicker.swift; sourceTree = "<group>"; };
 		03F70C7427325E2400476AC4 /* VideoProbeScript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoProbeScript.swift; sourceTree = "<group>"; };
@@ -118,9 +156,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03462CAC273DCFEE008C170C /* FirebasePerformance in Frameworks */,
+				03462C9A273DCFEE008C170C /* FirebaseAnalyticsSwift-Beta in Frameworks */,
 				03F70C702731EC7200476AC4 /* FilesUI in Frameworks */,
 				030625F7273873F6006781CF /* ShareSheet in Frameworks */,
+				03462CA4273DCFEE008C170C /* FirebaseFirestore in Frameworks */,
+				03462C98273DCFEE008C170C /* FirebaseAnalytics in Frameworks */,
+				03462CA6273DCFEE008C170C /* FirebaseFirestoreCombine-Community in Frameworks */,
+				03462C9C273DCFEE008C170C /* FirebaseAppCheck in Frameworks */,
+				03462C9E273DCFEE008C170C /* FirebaseAuth in Frameworks */,
+				03462CAE273DCFEE008C170C /* FirebaseRemoteConfig in Frameworks */,
+				03462CAA273DCFEE008C170C /* FirebaseMessaging in Frameworks */,
+				03462CA2273DCFEE008C170C /* FirebaseCrashlytics in Frameworks */,
+				03462CA8273DCFEE008C170C /* FirebaseFirestoreSwift-Beta in Frameworks */,
+				03595BE7273F55EC00BAEDA0 /* CloudKit.framework in Frameworks */,
+				03595BE9273F562800BAEDA0 /* StoreKit.framework in Frameworks */,
 				75BBCCDEFE310961578DBA7D /* Pods_Oatmeal__iOS_.framework in Frameworks */,
+				03462CA0273DCFEE008C170C /* FirebaseAuthCombine-Community in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +221,7 @@
 		038AFF30272F3A7D00CE33C8 = {
 			isa = PBXGroup;
 			children = (
+				03595BE5273F55E900BAEDA0 /* Oatmeal (iOS).entitlements */,
 				038AFF35272F3A7D00CE33C8 /* Shared */,
 				03412067273374A400BDE4E4 /* iOS */,
 				038AFF44272F3A8000CE33C8 /* macOS */,
@@ -185,7 +238,15 @@
 			children = (
 				038AFF36272F3A7E00CE33C8 /* OatmealApp.swift */,
 				038AFF37272F3A7E00CE33C8 /* ContentView.swift */,
-				03C44F28273340A6000E19D8 /* FFmpeg */,
+				03462CC1273E1191008C170C /* EnvironmentView.swift */,
+				03462CBE273E1124008C170C /* Environment Scene.scn */,
+				03462CAF273DD003008C170C /* EnvironmentStack.swift */,
+				03462C93273DC96B008C170C /* Dinos.swift */,
+				0396F0BC273DA27700EFB425 /* CircularProgressView.swift */,
+				03595BDE273F42F900BAEDA0 /* Oatmeal.xcdatamodeld */,
+				03595BE0273F42F900BAEDA0 /* Persistence.swift */,
+				03C44F29273340B2000E19D8 /* VideoConverterView */,
+				03C44F28273340A6000E19D8 /* VideoConverter */,
 				03F70C7B273336ED00476AC4 /* Dinokids.ttf */,
 				038AFF38272F3A8000CE33C8 /* Assets.xcassets */,
 			);
@@ -230,18 +291,17 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
-		03C44F28273340A6000E19D8 /* FFmpeg */ = {
+		03C44F28273340A6000E19D8 /* VideoConverter */ = {
 			isa = PBXGroup;
 			children = (
 				038AFF87272F501D00CE33C8 /* VideoConversionSession.swift */,
 				038AFF90272F5DA400CE33C8 /* VideoProbe.swift */,
 				038AFF75272F408C00CE33C8 /* VideoConverter.swift */,
-				03C44F29273340B2000E19D8 /* VideoConverterView */,
 				0341206D27349E3C00BDE4E4 /* Extensions */,
 				03F70C7727325E5000476AC4 /* Scripts */,
 				03C44F2A273340CB000E19D8 /* Model */,
 			);
-			path = FFmpeg;
+			path = VideoConverter;
 			sourceTree = "<group>";
 		};
 		03C44F29273340B2000E19D8 /* VideoConverterView */ = {
@@ -279,6 +339,8 @@
 		670EBDB60D4419D59A08F517 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				03595BE8273F562800BAEDA0 /* StoreKit.framework */,
+				03595BE6273F55EC00BAEDA0 /* CloudKit.framework */,
 				CB5B932E1F61D5B85A2B0707 /* Pods_Oatmeal__iOS_.framework */,
 				EFCA62001C30887B10375E69 /* Pods_Oatmeal__macOS_.framework */,
 			);
@@ -307,6 +369,7 @@
 				038AFF39272F3A8000CE33C8 /* Sources */,
 				038AFF3A272F3A8000CE33C8 /* Frameworks */,
 				038AFF3B272F3A8000CE33C8 /* Resources */,
+				1B50580D260F16F0580CABDF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -316,6 +379,18 @@
 			packageProductDependencies = (
 				03F70C6F2731EC7200476AC4 /* FilesUI */,
 				030625F6273873F6006781CF /* ShareSheet */,
+				03462C97273DCFEE008C170C /* FirebaseAnalytics */,
+				03462C99273DCFEE008C170C /* FirebaseAnalyticsSwift-Beta */,
+				03462C9B273DCFEE008C170C /* FirebaseAppCheck */,
+				03462C9D273DCFEE008C170C /* FirebaseAuth */,
+				03462C9F273DCFEE008C170C /* FirebaseAuthCombine-Community */,
+				03462CA1273DCFEE008C170C /* FirebaseCrashlytics */,
+				03462CA3273DCFEE008C170C /* FirebaseFirestore */,
+				03462CA5273DCFEE008C170C /* FirebaseFirestoreCombine-Community */,
+				03462CA7273DCFEE008C170C /* FirebaseFirestoreSwift-Beta */,
+				03462CA9273DCFEE008C170C /* FirebaseMessaging */,
+				03462CAB273DCFEE008C170C /* FirebasePerformance */,
+				03462CAD273DCFEE008C170C /* FirebaseRemoteConfig */,
 			);
 			productName = "Oatmeal (iOS)";
 			productReference = 038AFF3D272F3A8000CE33C8 /* Oatmeal.app */;
@@ -329,6 +404,7 @@
 				038AFF3F272F3A8000CE33C8 /* Sources */,
 				038AFF40272F3A8000CE33C8 /* Frameworks */,
 				038AFF41272F3A8000CE33C8 /* Resources */,
+				250B30263E1705A8493E428D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -416,6 +492,7 @@
 			packageReferences = (
 				03F70C6E2731EC7200476AC4 /* XCRemoteSwiftPackageReference "FilesUI" */,
 				032FA47E2734B2DC00EDA764 /* XCRemoteSwiftPackageReference "ShareSheet" */,
+				03462C96273DCFEE008C170C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = 038AFF3E272F3A8000CE33C8 /* Products */;
 			projectDirPath = "";
@@ -434,6 +511,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03462CBF273E1124008C170C /* Environment Scene.scn in Resources */,
 				03F70C7C273336ED00476AC4 /* Dinokids.ttf in Resources */,
 				038AFF62272F3A8000CE33C8 /* Assets.xcassets in Resources */,
 			);
@@ -445,6 +523,7 @@
 			files = (
 				034120692733751600BDE4E4 /* OatmealiOSInfo.plist in Resources */,
 				03F70C7D273336ED00476AC4 /* Dinokids.ttf in Resources */,
+				03462CC0273E1125008C170C /* Environment Scene.scn in Resources */,
 				038AFF63272F3A8000CE33C8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,6 +545,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1B50580D260F16F0580CABDF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Oatmeal (iOS)/Pods-Oatmeal (iOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Oatmeal (iOS)/Pods-Oatmeal (iOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Oatmeal (iOS)/Pods-Oatmeal (iOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		250B30263E1705A8493E428D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Oatmeal (macOS)/Pods-Oatmeal (macOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Oatmeal (macOS)/Pods-Oatmeal (macOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Oatmeal (macOS)/Pods-Oatmeal (macOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		3CF3A2383433A3728138E15D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -525,12 +638,18 @@
 				038AFF76272F408D00CE33C8 /* VideoConverter.swift in Sources */,
 				038AFF8E272F506B00CE33C8 /* VideoRenderScript.swift in Sources */,
 				038AFF8B272F505700CE33C8 /* VideoConversionScript.swift in Sources */,
+				03462C94273DC96B008C170C /* Dinos.swift in Sources */,
 				038AFF85272F441200CE33C8 /* VideoExtension.swift in Sources */,
 				03F70C7927330FCF00476AC4 /* Script.swift in Sources */,
+				03595BE1273F42F900BAEDA0 /* Oatmeal.xcdatamodeld in Sources */,
+				0396F0BD273DA27700EFB425 /* CircularProgressView.swift in Sources */,
 				0341206B273468A400BDE4E4 /* FileManager+AppDirectory.swift in Sources */,
 				038AFF5E272F3A8000CE33C8 /* OatmealApp.swift in Sources */,
+				03595BE3273F42F900BAEDA0 /* Persistence.swift in Sources */,
 				038AFF91272F5DA400CE33C8 /* VideoProbe.swift in Sources */,
 				038AFF7F272F43EE00CE33C8 /* VideoConverterError.swift in Sources */,
+				03462CC2273E1192008C170C /* EnvironmentView.swift in Sources */,
+				03462CB0273DD003008C170C /* EnvironmentStack.swift in Sources */,
 				030625F42737655A006781CF /* VideoPreview.swift in Sources */,
 				03F70C7527325E2400476AC4 /* VideoProbeScript.swift in Sources */,
 				038AFF82272F440200CE33C8 /* VideoCodec.swift in Sources */,
@@ -549,12 +668,18 @@
 				038AFF77272F408D00CE33C8 /* VideoConverter.swift in Sources */,
 				038AFF8F272F506B00CE33C8 /* VideoRenderScript.swift in Sources */,
 				038AFF8C272F505700CE33C8 /* VideoConversionScript.swift in Sources */,
+				03462C95273DC96B008C170C /* Dinos.swift in Sources */,
 				038AFF86272F441200CE33C8 /* VideoExtension.swift in Sources */,
 				03F70C7A27330FCF00476AC4 /* Script.swift in Sources */,
+				03595BE2273F42F900BAEDA0 /* Oatmeal.xcdatamodeld in Sources */,
+				0396F0BE273DA27700EFB425 /* CircularProgressView.swift in Sources */,
 				0341206C273468A400BDE4E4 /* FileManager+AppDirectory.swift in Sources */,
 				038AFF5F272F3A8000CE33C8 /* OatmealApp.swift in Sources */,
+				03595BE4273F42F900BAEDA0 /* Persistence.swift in Sources */,
 				038AFF92272F5DA400CE33C8 /* VideoProbe.swift in Sources */,
 				038AFF80272F43EE00CE33C8 /* VideoConverterError.swift in Sources */,
+				03462CC3273E1192008C170C /* EnvironmentView.swift in Sources */,
+				03462CB1273DD003008C170C /* EnvironmentStack.swift in Sources */,
 				030625F52737655A006781CF /* VideoPreview.swift in Sources */,
 				03F70C7627325E2400476AC4 /* VideoProbeScript.swift in Sources */,
 				038AFF83272F440200CE33C8 /* VideoCodec.swift in Sources */,
@@ -712,6 +837,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Oatmeal (iOS).entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LU6454UVH5;
@@ -745,6 +871,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Oatmeal (iOS).entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LU6454UVH5;
@@ -997,6 +1124,14 @@
 				kind = branch;
 			};
 		};
+		03462C96273DCFEE008C170C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
 		03F70C6E2731EC7200476AC4 /* XCRemoteSwiftPackageReference "FilesUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/briannadoubt/FilesUI.git";
@@ -1013,6 +1148,66 @@
 			package = 032FA47E2734B2DC00EDA764 /* XCRemoteSwiftPackageReference "ShareSheet" */;
 			productName = ShareSheet;
 		};
+		03462C97273DCFEE008C170C /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03462C96273DCFEE008C170C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		03462C99273DCFEE008C170C /* FirebaseAnalyticsSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03462C96273DCFEE008C170C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAnalyticsSwift-Beta";
+		};
+		03462C9B273DCFEE008C170C /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03462C96273DCFEE008C170C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		03462C9D273DCFEE008C170C /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03462C96273DCFEE008C170C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		03462C9F273DCFEE008C170C /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03462C96273DCFEE008C170C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		03462CA1273DCFEE008C170C /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03462C96273DCFEE008C170C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		03462CA3273DCFEE008C170C /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03462C96273DCFEE008C170C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		03462CA5273DCFEE008C170C /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03462C96273DCFEE008C170C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		03462CA7273DCFEE008C170C /* FirebaseFirestoreSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03462C96273DCFEE008C170C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreSwift-Beta";
+		};
+		03462CA9273DCFEE008C170C /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03462C96273DCFEE008C170C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		03462CAB273DCFEE008C170C /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03462C96273DCFEE008C170C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebasePerformance;
+		};
+		03462CAD273DCFEE008C170C /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03462C96273DCFEE008C170C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
 		03F70C6F2731EC7200476AC4 /* FilesUI */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 03F70C6E2731EC7200476AC4 /* XCRemoteSwiftPackageReference "FilesUI" */;
@@ -1024,6 +1219,19 @@
 			productName = FilesUI;
 		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		03595BDE273F42F900BAEDA0 /* Oatmeal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				03595BDF273F42F900BAEDA0 /* Shared.xcdatamodel */,
+			);
+			currentVersion = 03595BDF273F42F900BAEDA0 /* Shared.xcdatamodel */;
+			path = Oatmeal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 038AFF31272F3A7D00CE33C8 /* Project object */;
 }

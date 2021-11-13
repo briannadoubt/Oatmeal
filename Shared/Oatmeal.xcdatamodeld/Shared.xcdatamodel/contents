@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19461" systemVersion="21A559" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="CompletedVideoConversionSession" representedClassName="CompletedVideoConversionSession" syncable="YES" codeGenerationType="class">
+        <attribute name="completed" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="device" optional="YES" attributeType="String"/>
+        <attribute name="filename" optional="YES" attributeType="String"/>
+        <attribute name="url" optional="YES" attributeType="URI"/>
+        <attribute name="userInterfaceIdiom" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="CompletedVideoConversionSession" positionX="-63" positionY="-18" width="128" height="104"/>
+    </elements>
+</model>

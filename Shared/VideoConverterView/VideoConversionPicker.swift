@@ -25,7 +25,6 @@ public struct VideoConversionPicker: View {
                     appropriateFor: nil,
                     create: true
                 )
-                .appendingPathComponent("Oatmeal", isDirectory: true)
         )
         ?? FileManager.default.appDirectory
         
@@ -138,8 +137,12 @@ public struct VideoConversionPicker: View {
                         if let outputDirectory = outputDirectory {
                             Button {
                                 do {
-                                    let script = VideoConversionScript(inputFile: inputFile, outputDirectory: outputDirectory, codec: videoCodec)
-                                    converter.sessions.append(try VideoConversionSession(script: script, probe: probe) )
+                                    try converter.convert(
+                                        inputFile: inputFile,
+                                        to: videoCodec,
+                                        outputDirectory: outputDirectory,
+                                        probe: probe
+                                    )
                                     self.inputFile = nil
                                 } catch let error as VideoConverterError {
                                     fatalError(error.localizedDescription)

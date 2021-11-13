@@ -7,7 +7,9 @@
 
 import SwiftUI
 import FilesUI
+#if os(iOS)
 import ShareSheet
+#endif
 
 extension Double {
   func asString(style: DateComponentsFormatter.UnitsStyle) -> String {
@@ -51,10 +53,16 @@ public struct VideoConversionSessionView: View {
         self.stop = stop
     }
     
+    @AppStorage("overwriteDestinationByDefault") private var overwriteDestinationByDefault: Bool = false
+    
     @EnvironmentObject private var session: VideoConversionSession
     
     @State private var inputFile: URL
+    @State private var showingOverwriteAlert = false
+    
+    #if os(iOS)
     @State private var showShareSheet = false
+    #endif
     
     private var stop: (_ session: VideoConversionSession) -> ()
     
@@ -76,7 +84,7 @@ public struct VideoConversionSessionView: View {
     
     public var body: some View {
         let finishedView = HStack {
-            Text((session.probe.title ?? session.probe.filename ?? "Video")) + Text("(Complete)")
+            Text((session.probe.title ?? session.probe.filename ?? "Video")).font(.headline) + Text(" (Complete)").font(.subheadline)
             Spacer()
             #if os(iOS)
             Button(action: { showShareSheet.toggle() }) {
@@ -91,27 +99,32 @@ public struct VideoConversionSessionView: View {
             #endif
         }
         
-        let notFinishedView = Group {
-            HStack {
-                if session.progress == session.convertedTime {
-                    if let time = session.convertedTime {
-                        Text("We've converted " + time.asString(style: .abbreviated) + " so far!")
-                    }
-                    if session.progress >= 0.01, session.probe.totalFrames != nil {
-                        Text("(" + String(format: "%.2f", session.progress) + "%)")
-                    }
-                } else if session.progress < 0.01 {
-                    Text("Starting...")
-                } else {
-                    if let totalDuration = session.probe.totalDuration, let convertedTime = session.convertedTime {
-                        ProgressView(value: convertedTime, total: totalDuration)
-                    }
-                }
-                Spacer()
-                Button { stop(session) } label: { Image(systemName: "xmark") }
+        let progressView = Group {
+            if
+                let totalDuration = session.probe.totalDuration,
+                totalDuration > 0,
+                let convertedTime = session.convertedTime
+            {
+                CircularProgressView(
+                    value: convertedTime,
+                    total: totalDuration,
+                    cancel: { stop(session) }
+                )
+                .frame(width: 64, height: 64)
             }
-            
-            if let time = session.convertedTime, time != session.progress {
+        }
+        
+        let notFinishedView = HStack {
+            if session.progress == session.convertedTime {
+                if let time = session.convertedTime {
+                    Text("We've converted " + time.asString(style: .abbreviated) + " so far!")
+                }
+                if session.progress >= 0.01, session.probe.totalDuration != nil {
+                    Text("(" + String(format: "%.2f", session.progress) + "%)")
+                }
+            } else if session.progress < 0.01 {
+                Text("Starting...")
+            } else if let time = session.convertedTime, time != session.progress {
                 HStack {
                     Text(
                         "We've converted "
@@ -122,6 +135,8 @@ public struct VideoConversionSessionView: View {
                     Spacer()
                 }
             }
+            Spacer()
+            progressView
         }
         
         VStack {
@@ -130,6 +145,24 @@ public struct VideoConversionSessionView: View {
             } else {
                 notFinishedView
             }
+        }
+        .onChange(of: session.finished) { isFinished in
+            if isFinished && !overwriteDestinationByDefault {
+                withAnimation {
+                    showingOverwriteAlert = true
+                }
+            }
+        }
+        
+        .alert(isPresented: $showingOverwriteAlert) {
+            Alert(
+                title: Text("Overwrite?"),
+                message: Text(""),//\(session.) already exists in \(session.script.ou)"),
+                primaryButton: .destructive(Text("Yes")) {
+                    session.moveFile()
+                },
+                secondaryButton: .cancel(Text("Nevermind"))
+            )
         }
     }
 }

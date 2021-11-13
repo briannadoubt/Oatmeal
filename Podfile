@@ -7,6 +7,7 @@ target 'Oatmeal (iOS)' do
 
   # Pods for Oatmeal (iOS)
   pod 'ffmpeg-kit-ios-full-gpl', '~> 4.5'
+  pod 'GBDeviceInfo', '~> 6.0'
 
 end
 
@@ -16,5 +17,6 @@ target 'Oatmeal (macOS)' do
 
   # Pods for Oatmeal (macOS)
   pod 'ffmpeg-kit-macos-full-gpl', '~> 4.5'
+  pod 'GBDeviceInfo', '~> 6.0'
 
 end
